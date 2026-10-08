@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "thesift:blub",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/the_blub"
+      },
+      "geometry": {
+        "default": "geometry.the_blub"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#20B7D2",
+        "overlay_color": "#16435F"
+      }
+    }
+  }
+}

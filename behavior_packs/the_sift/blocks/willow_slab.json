@@ -1,0 +1,90 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:willow_slab",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "sift:slab_type": [
+          "bottom",
+          "top",
+          "double"
+        ]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.slab"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "willow_planks",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:flammable": true,
+      "minecraft:map_color": "#9BE3D4",
+      "sift:willow_slab": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('sift:slab_type') == 'top'",
+        "components": {
+          "minecraft:transformation": {
+            "translation": [
+              0,
+              0.5,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('sift:slab_type') == 'double'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.full_block"
+          },
+          "minecraft:collision_box": true,
+          "minecraft:selection_box": true
+        }
+      }
+    ]
+  }
+}

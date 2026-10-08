@@ -1,0 +1,53 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:willow_sapling",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.cross"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "willow_sapling",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -4,
+          0,
+          -4
+        ],
+        "size": [
+          8,
+          12,
+          8
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              {
+                "tags": "q.any_tag('minecraft:dirt','minecraft:grass_block','minecraft:podzol','thesift:rose_soil')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:map_color": "#9BE3D4"
+    }
+  }
+}

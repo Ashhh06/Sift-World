@@ -1,0 +1,14 @@
+{
+  "packs": [
+    {
+      "uuid": "c1ab8b96-4d79-4b06-a04a-ba01def894e6",
+      "version": [
+        0,
+        1,
+        0
+      ],
+      "name": "the_sift",
+      "can_be_redownloaded": false
+    }
+  ]
+}

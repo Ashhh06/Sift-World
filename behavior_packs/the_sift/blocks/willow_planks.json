@@ -1,0 +1,37 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:willow_planks",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "willow_planks",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "willow_planks",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "willow_planks",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:flammable": true,
+      "minecraft:map_color": "#9BE3D4"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:sift_tall_sculk_grass_green",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.sift_sculk_tall"
+      },
+      "minecraft:material_instances": {
+        "north": {
+          "texture": "sift_tall_sculk_grass_green_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        },
+        "south": {
+          "texture": "sift_tall_sculk_grass_green_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        },
+        "east": {
+          "texture": "sift_tall_sculk_grass_green_2",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        },
+        "west": {
+          "texture": "sift_tall_sculk_grass_green_2",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        },
+        "up": {
+          "texture": "sift_tall_sculk_grass_green_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        },
+        "down": {
+          "texture": "sift_tall_sculk_grass_green_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": true,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:flammable": true,
+      "minecraft:map_color": "#25B5A4",
+      "minecraft:loot": "loot_tables/blocks/sift_tall_sculk_grass_green.json"
+    }
+  }
+}

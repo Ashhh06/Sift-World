@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.sift_snapper.attack": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {"biting": "query.is_delayed_attacking"}
+          ]
+        },
+        "biting": {
+          "animations": ["bite"],
+          "transitions": [
+            {"default": "!query.is_delayed_attacking"}
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:sift_foliage_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "sift_foliage_block_top",
+          "render_method": "alpha_test"
+        },
+        "down": {
+          "texture": "sift_foliage_block_side",
+          "render_method": "alpha_test"
+        },
+        "*": {
+          "texture": "sift_foliage_block_side",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:flammable": true,
+      "minecraft:map_color": "#39A980",
+      "minecraft:loot": "loot_tables/blocks/sift_foliage_block.json"
+    }
+  }
+}

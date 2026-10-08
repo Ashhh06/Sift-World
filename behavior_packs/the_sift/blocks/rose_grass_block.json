@@ -1,0 +1,39 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:rose_grass_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "sift_rose_grass_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "sift_rose_soil",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "sift_rose_grass_side",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 5
+      },
+      "minecraft:map_color": "#C95A78"
+    }
+  }
+}

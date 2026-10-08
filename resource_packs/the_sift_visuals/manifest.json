@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "The Sift - Portal Visuals",
+    "description": "Translucent mist texture for The Sift gateway.",
+    "uuid": "cf00b9d3-d651-4625-8fdd-f5b6c3378e9a",
+    "version": [
+      0,
+      1,
+      39
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "21e8a9c3-d1c7-4091-bc42-ed5b8f2f4038",
+      "version": [
+        0,
+        1,
+        39
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

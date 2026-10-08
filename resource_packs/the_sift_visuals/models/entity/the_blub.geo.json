@@ -1,0 +1,77 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.the_blub",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [-3, 0, 0]
+				},
+				{
+					"name": "right_leg1",
+					"parent": "root",
+					"pivot": [4, 2, -4],
+					"cubes": [
+						{"origin": [3, 0, -5], "size": [2, 2, 2], "uv": [16, 22]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-5, 2, -5], "size": [10, 8, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "ear1",
+					"parent": "root",
+					"pivot": [-2, 10, -3],
+					"cubes": [
+						{"origin": [-4, 10, -3], "size": [3, 4, 1], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "ear2",
+					"parent": "root",
+					"pivot": [3, 10, -3],
+					"cubes": [
+						{"origin": [1, 10, -3], "size": [3, 4, 1], "uv": [8, 18]}
+					]
+				},
+				{
+					"name": "right_leg2",
+					"parent": "root",
+					"pivot": [4, 2, 4],
+					"cubes": [
+						{"origin": [3, 0, 3], "size": [2, 2, 2], "uv": [0, 23]}
+					]
+				},
+				{
+					"name": "left_leg1",
+					"parent": "root",
+					"pivot": [-4, 2, -4],
+					"cubes": [
+						{"origin": [-5, 0, -5], "size": [2, 2, 2], "uv": [8, 23]}
+					]
+				},
+				{
+					"name": "left_leg2",
+					"parent": "root",
+					"pivot": [-4, 2, 4],
+					"cubes": [
+						{"origin": [-5, 0, 3], "size": [2, 2, 2], "uv": [16, 18]}
+					]
+				}
+			]
+		}
+	]
+}

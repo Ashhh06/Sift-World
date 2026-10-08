@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "thesift:sift_snapper",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/sift_snapper"
+      },
+      "geometry": {
+        "default": "geometry.sift_snapper"
+      },
+      "animations": {
+        "bite": "animation.sift_snapper.bite",
+        "attack_controller": "controller.animation.sift_snapper.attack"
+      },
+      "scripts": {
+        "animate": ["attack_controller"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "base_color": "#49B982",
+        "overlay_color": "#E8BD45"
+      }
+    }
+  }
+}

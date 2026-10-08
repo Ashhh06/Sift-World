@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "healthy_sculk_pink",
+    "metalness_emissive_roughness": "healthy_sculk_pink_mer"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:willow_leaves",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "willow_leaves",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.2
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:light_emission": 3,
+      "minecraft:flammable": true,
+      "minecraft:map_color": "#C1FAF0",
+      "minecraft:loot": "loot_tables/blocks/willow_sapling.json"
+    }
+  }
+}

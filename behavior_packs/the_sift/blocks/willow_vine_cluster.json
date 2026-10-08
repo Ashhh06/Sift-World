@@ -1,0 +1,41 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:willow_vine_cluster",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.willow_hanging_vine"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "willow_vine_cluster",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": true,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "down"
+            ]
+          }
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:flammable": true,
+      "minecraft:map_color": "#63C9C0",
+      "minecraft:loot": "loot_tables/blocks/willow_vine_cluster.json"
+    }
+  }
+}

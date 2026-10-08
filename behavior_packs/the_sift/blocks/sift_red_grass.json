@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:sift_red_grass",
+      "menu_category": { "category": "nature" }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "sift_red_grass",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": true,
+      "minecraft:placement_filter": {
+        "conditions": [
+          { "allowed_faces": ["up"] }
+        ]
+      },
+      "minecraft:destructible_by_mining": { "seconds_to_destroy": 0.1 },
+      "minecraft:map_color": "#DD3D49"
+    }
+  }
+}

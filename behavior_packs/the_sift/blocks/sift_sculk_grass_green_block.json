@@ -1,0 +1,56 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thesift:sift_sculk_grass_green_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "sift_sculk_grass_green_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "sift_sculk_grass_green_bottom",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "sift_sculk_grass_green_side",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "sift_sculk_grass_green_side",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "sift_sculk_grass_green_side",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "sift_sculk_grass_green_side_variation",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "sift_sculk_grass_green_side_variation",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#25B6A5",
+      "minecraft:loot": "loot_tables/blocks/sift_sculk_grass_green_block.json"
+    }
+  }
+}

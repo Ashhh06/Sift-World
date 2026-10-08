@@ -1,0 +1,233 @@
+{
+  "resource_pack_name": "the_sift_visuals",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "sift_portal_mist": {
+      "textures": "textures/blocks/sift_portal_mist"
+    },
+    "sift_rose_soil": {
+      "textures": "textures/blocks/sift_rose_soil"
+    },
+    "sift_rose_grass_top": {
+      "textures": "textures/blocks/sift_rose_grass_top"
+    },
+    "sift_rose_grass_side": {
+      "textures": "textures/blocks/sift_rose_grass_side"
+    },
+    "sift_coral_grass": {
+      "textures": "textures/blocks/sift_bloomgrass"
+    },
+    "sift_rift_weed": {
+      "textures": "textures/blocks/sift_rift_weed"
+    },
+    "sift_prismatic_water": {
+      "textures": "textures/blocks/sift_prismatic_water"
+    },
+    "sift_gate_frame": {
+      "textures": "textures/blocks/sift_gate_frame"
+    },
+    "sift_gate_stone": {
+      "textures": "textures/blocks/sift_gate_stone"
+    },
+    "sift_gate_rune": {
+      "textures": "textures/blocks/sift_gate_rune"
+    },
+    "sift_gate_crystal": {
+      "textures": "textures/blocks/sift_gate_crystal"
+    },
+    "sift_slate": {
+      "textures": "textures/blocks/sift_slate"
+    },
+    "sift_red_grass": {
+      "textures": "textures/blocks/sift_red_grass"
+    },
+    "sift_slate_grass_top": {
+      "textures": "textures/blocks/sift_slate_grass_top"
+    },
+    "sift_slate_grass_side": {
+      "textures": "textures/blocks/sift_slate_grass_side"
+    },
+    "sift_slate_green_grass_top": {
+      "textures": "textures/blocks/sift_slate_green_grass_top"
+    },
+    "sift_slate_green_grass_side": {
+      "textures": "textures/blocks/sift_slate_green_grass_side"
+    },
+    "willow_log_side": {
+      "textures": "textures/blocks/willow_log_side"
+    },
+    "willow_log_end": {
+      "textures": "textures/blocks/willow_log_end"
+    },
+    "stripped_willow_log_side": {
+      "textures": "textures/blocks/stripped_willow_log_side"
+    },
+    "stripped_willow_log_end": {
+      "textures": "textures/blocks/stripped_willow_log_end"
+    },
+    "willow_planks": {
+      "textures": "textures/blocks/willow_planks"
+    },
+    "willow_leaves": {
+      "textures": "textures/blocks/willow_leaves"
+    },
+    "willow_sapling": {
+      "textures": "textures/blocks/willow_sapling"
+    },
+    "willow_vine_canopy": {
+      "textures": "textures/blocks/willow_vine_canopy"
+    },
+    "willow_vine_cluster": {
+      "textures": "textures/blocks/willow_vine_cluster"
+    },
+    "willow_vine_sparse": {
+      "textures": "textures/blocks/willow_vine_sparse"
+    },
+    "willow_vine_pair": {
+      "textures": "textures/blocks/willow_vine_pair"
+    },
+    "willow_vine_curtain": {
+      "textures": "textures/blocks/willow_vine_curtain"
+    },
+    "willow_vine_long": {
+      "textures": "textures/blocks/willow_vine_long"
+    },
+    "willow_vine_forked": {
+      "textures": "textures/blocks/willow_vine_forked"
+    },
+    "sift_mint_sprig": {
+      "textures": "textures/blocks/sift_mint_sprig"
+    },
+    "sift_fan_grass": {
+      "textures": "textures/blocks/sift_fan_grass"
+    },
+    "sift_upright_grass": {
+      "textures": "textures/blocks/sift_upright_grass"
+    },
+    "sift_tall_grass": {
+      "textures": "textures/blocks/sift_tall_grass"
+    },
+    "sift_low_shrub": {
+      "textures": "textures/blocks/sift_low_shrub"
+    },
+    "sift_broad_shrub": {
+      "textures": "textures/blocks/sift_broad_shrub"
+    },
+    "sift_stem_plant": {
+      "textures": "textures/blocks/sift_stem_plant"
+    },
+    "sift_bloom_stalk": {
+      "textures": "textures/blocks/sift_bloom_stalk"
+    },
+    "sift_ground_rosette": {
+      "textures": "textures/blocks/sift_ground_rosette"
+    },
+    "sift_spreading_rosette": {
+      "textures": "textures/blocks/sift_spreading_rosette"
+    },
+    "sift_hanging_canopy": {
+      "textures": "textures/blocks/sift_hanging_canopy"
+    },
+    "sift_trailing_vine": {
+      "textures": "textures/blocks/sift_trailing_vine"
+    },
+    "sift_leaf_sprout": {
+      "textures": "textures/blocks/sift_leaf_sprout"
+    },
+    "sift_leaf_bush": {
+      "textures": "textures/blocks/sift_leaf_bush"
+    },
+    "sift_leaf_cluster": {
+      "textures": "textures/blocks/sift_leaf_cluster"
+    },
+    "sift_foliage_block_top": {
+      "textures": "textures/blocks/sift_foliage_block_top"
+    },
+    "sift_foliage_block_side": {
+      "textures": "textures/blocks/sift_foliage_block_side"
+    },
+    "sift_dense_foliage_block_top": {
+      "textures": "textures/blocks/sift_dense_foliage_block_top"
+    },
+    "sift_dense_foliage_block_side": {
+      "textures": "textures/blocks/sift_dense_foliage_block_side"
+    },
+    "sift_dirt": {
+      "textures": "textures/blocks/sift_dirt"
+    },
+    "sift_grass_side": {
+      "textures": "textures/blocks/sift_grass_side"
+    },
+    "sift_grass_top": {
+      "textures": "textures/blocks/sift_grass_top"
+    },
+    "sift_cyan_flower": {
+      "textures": "textures/blocks/sift_cyan_flower"
+    },
+    "sift_bloom": {
+      "textures": "textures/blocks/sift_bloom"
+    },
+    "sift_crimson_flower": {
+      "textures": "textures/blocks/sift_crimson_flower"
+    },
+    "sift_small_flower": {
+      "textures": "textures/blocks/sift_small_flower"
+    },
+    "sift_short_sculk_grass_green_1": {
+      "textures": "textures/blocks/sift_short_sculk_grass_green_1"
+    },
+    "sift_short_sculk_grass_green_2": {
+      "textures": "textures/blocks/sift_short_sculk_grass_green_2"
+    },
+    "sift_tall_sculk_grass_green_1": {
+      "textures": "textures/blocks/sift_tall_sculk_grass_green_1"
+    },
+    "sift_tall_sculk_grass_green_2": {
+      "textures": "textures/blocks/sift_tall_sculk_grass_green_2"
+    },
+    "sift_short_sculk_grass_pink_1": {
+      "textures": "textures/blocks/sift_short_sculk_grass_pink_1"
+    },
+    "sift_short_sculk_grass_pink_2": {
+      "textures": "textures/blocks/sift_short_sculk_grass_pink_2"
+    },
+    "sift_tall_sculk_grass_pink_1": {
+      "textures": "textures/blocks/sift_tall_sculk_grass_pink_1"
+    },
+    "sift_tall_sculk_grass_pink_2": {
+      "textures": "textures/blocks/sift_tall_sculk_grass_pink_2"
+    },
+    "healthy_sculk_green": {
+      "textures": "textures/blocks/healthy_sculk_green"
+    },
+    "healthy_sculk_pink": {
+      "textures": "textures/blocks/healthy_sculk_pink"
+    },
+    "sift_sculk_grass_green_top": {
+      "textures": "textures/blocks/sift_sculk_grass_green_top"
+    },
+    "sift_sculk_grass_green_side": {
+      "textures": "textures/blocks/sift_sculk_grass_green_side"
+    },
+    "sift_sculk_grass_green_bottom": {
+      "textures": "textures/blocks/sift_sculk_grass_green_bottom"
+    },
+    "sift_sculk_grass_pink_top": {
+      "textures": "textures/blocks/sift_sculk_grass_pink_top"
+    },
+    "sift_sculk_grass_pink_side": {
+      "textures": "textures/blocks/sift_sculk_grass_pink_side"
+    },
+    "sift_sculk_grass_pink_bottom": {
+      "textures": "textures/blocks/sift_sculk_grass_pink_bottom"
+    },
+    "sift_sculk_grass_green_side_variation": {
+      "textures": "textures/blocks/sift_sculk_grass_green_side_variation"
+    },
+    "sift_sculk_grass_pink_side_variation": {
+      "textures": "textures/blocks/sift_sculk_grass_pink_side_variation"
+    }
+  }
+}
